@@ -3,16 +3,23 @@ package com.example.harmeet02;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.GestureDetector;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.RotateAnimation;
+import android.widget.ImageView;
+import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
-
+    ImageView imgView;
+    Switch sw;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-                imgView = findViewById(R.id.imageView9);
+       imgView = findViewById(R.id.imageView9);
                 sw = findViewById(R.id.switch1);
-                sw.setOnCheckedChangeListener( (btn, isChecked) -> {
+               sw.setOnCheckedChangeListener( (btn, isChecked) -> {
                 });
 
                 sw.setOnCheckedChangeListener((buttonView, isChecked) -> {
