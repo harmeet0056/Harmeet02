@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Harmeet02</string>
+        <string name="spin_message">Spin flag</string>
+        <string name="hellostring">Hello</string>
+    </resources>
